@@ -1,0 +1,52 @@
+@import url(/css/yaml/core/base.css);
+@import url(/css/yaml/navigation/hlist.css);
+@import url(/css/yaml/forms/gray-theme.css);
+@import url(/css/yaml/screen/typography.css);
+@import url(/css/yaml/screen/screen-FULLPAGE-layout.css);
+@import url(/css/yaml/print/print.css);
+
+@media all {
+    dl.zend_form {
+        margin: 0 0 0;
+    }
+    dl.zend_form dt {
+        display: block;
+        float: left;
+        line-height: 1.5em;
+        width: 10em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        border-top: 1px dotted #CCCCCC;
+    }
+    dl.zend_form dd {
+        margin: 0;
+        line-height: 1.5em;
+        margin-left: 10.0em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        border-top: 1px dotted #CCCCCC;
+    }
+    dl.zend_form dd p.description, dl.zend_form dd p.hint {
+        margin-top: 0;
+        margin-bottom: 0.75em;
+    }
+    input.input38 {
+        width: 38em;
+    }
+    textarea.text38x15 {
+        width: 38em;
+        height: 15em;
+    }
+    textarea.text38x10 {
+        width: 38em;
+        height: 10em;
+    }
+    .errors {
+        color: red;
+        margin-bottom: 1.5em;
+    }
+    .notes {
+        color: green;
+        margin-bottom: 1.5em;
+    }
+}

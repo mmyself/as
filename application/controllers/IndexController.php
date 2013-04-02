@@ -10,7 +10,10 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
-        // action body
+
+        return $this->_redirect($this->getHelper('url')->url(array(
+            'module' => 'bidding', 'controller' => 'index', 'action' => 'index'
+        ), 'default', true));
     }
 
 
