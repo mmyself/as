@@ -3,7 +3,7 @@ SET FOREIGN_KEY_CHECKS=0;
 CREATE TABLE IF NOT EXISTS `bidding` (
 `bidding_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
 `bidding_created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-'bidding_date'  timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+`bidding_date` date NOT NULL,
 `bidding_user` int(11) unsigned DEFAULT NULL,
 `bidding_name` text NOT NULL,
 `bidding_title` text NOT NULL,
